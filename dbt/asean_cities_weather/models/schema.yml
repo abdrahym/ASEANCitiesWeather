@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: daily_data
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - city_name
+            - datetime
+
+  - name: hourly_data
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - city_name
+            - datetime
+

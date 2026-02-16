@@ -1,0 +1,11 @@
+asean_cities_weather:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: '../../.databases/asean_cities_weather_dev.duckdb'
+      threads: 1
+  
+    prod:
+      type: duckdb
+      path: '../../.databases/asean_cities_weather.duckdb'
