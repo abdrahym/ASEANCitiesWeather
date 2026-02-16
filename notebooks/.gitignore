@@ -1,0 +1,74 @@
+# Environment files
+**/.vscode/
+
+**/*.path
+**/*.paths
+**/*.env
+**/*.envs
+
+**/.path/
+**/.paths/
+**/.env/*
+**/.envs/*
+
+
+
+# Config and path files
+**/*.configs
+**/*.docs
+.pylintrc
+.idea
+.flake8
+.env
+.megaignore
+
+# Data folders
+**/.datasets/*
+**/.datasources/*
+**/.databases/*
+
+
+#worktree
+/wbx_*/
+/wbx-*/
+
+# Saved and exported files
+**/.img/
+**/.iplots*/
+**/.saved/
+
+# scripts
+**/.scripts/
+**/.sql/
+
+
+# Python cache
+.ipynb_checkpoints/
+**/__pycache__/
+
+# logs
+**/.log/*
+**/.logs/*
+**/log/*
+**/logs/*
+
+
+
+# Temporary / backup files
+**/*~.*
+**/*__.*
+**/*___.*
+
+**/.archives/
+**/drafts/
+
+**/.raws/
+**/dump_*/
+**/*.dumps
+**/.dumps/
+**/*.dumps/
+**/*.dumps
+**/.tmp/
+
+!**/.gitkeep
+.megaignore
