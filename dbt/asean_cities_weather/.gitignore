@@ -1,0 +1,9 @@
+**/.vscode/
+**/.envs/
+**/.scripts/
+**/target/
+**/dbt_packages/
+**/logs/
+**/.draft/
+**/draft/
+!**/.gitkeep
