@@ -1,0 +1,43 @@
+# Environment files
+
+# Config and path files
+
+# Data folders
+**/.datasets
+**/.datasources
+**/.databases
+
+#worktree
+**/wbx_*
+**/wbx-*
+
+# Saved and exported files
+
+
+# scripts
+
+# Python cache
+**/.ipynb_checkpoints
+**/__pycache__
+
+# logs
+**/.log
+**/.logs
+**/log
+**/logs
+
+
+# Temporary / backup files
+**/*~.*
+**/*__.*
+**/*___.*
+
+**/.archives
+
+**/.raws
+**/dump_*
+**/*.dumps
+**/.dumps
+**/.tmp
+
+!**/.gitkeep
