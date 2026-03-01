@@ -1,6 +1,24 @@
 # Environment files
+**/.vscode
+
+**/*.path
+**/*.paths
+**/*.env
+**/*.envs
+
+**/.path
+**/.paths
+**/.env
+**/.envs
 
 # Config and path files
+**/*.configs
+**/*.docs
+.pylintrc
+.idea
+.flake8
+.env
+.megaignore
 
 # Data folders
 **/.datasets
@@ -12,9 +30,11 @@
 **/wbx-*
 
 # Saved and exported files
-
+**/.img
 
 # scripts
+**/.scripts
+**/.sql
 
 # Python cache
 **/.ipynb_checkpoints
@@ -33,6 +53,7 @@
 **/*___.*
 
 **/.archives
+**/drafts
 
 **/.raws
 **/dump_*
