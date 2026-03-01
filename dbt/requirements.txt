@@ -1,0 +1,35 @@
+# --- Core & Data ---
+dbt-core==1.11.2
+pandas==2.3.3
+numpy==2.4.0
+openpyxl==3.1.5
+agate==1.9.1
+
+# --- Utilities & Parsing ---
+pyyaml==6.0.3
+requests==2.32.5
+click==8.3.0
+beautifulsoup4==4.14.3
+lxml==5.4.0
+deepdiff==8.6.1
+python-dateutil==2.9.0.post0
+jinja2==3.1.6
+
+# --- Cloud & Storage (AWS/Google) ---
+boto3==1.42.16
+botocore==1.42.16
+google-cloud-storage==3.1.1
+google-auth==2.45.0
+google-api-core==2.28.1
+
+# --- AI & GenAI (Terdeteksi di list awal) ---
+google-cloud-aiplatform==1.132.0
+google-genai==1.56.0
+
+# --- Linting & Testing ---
+sqlfluff==3.5.0
+sqlfluff-templater-dbt==3.5.0
+pytest==9.0.2
+
+# --- Visualization (Opsional) ---
+matplotlib-inline==0.2.1
