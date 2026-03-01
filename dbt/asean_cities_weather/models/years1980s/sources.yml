@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: y1980s
+    schema: years1980s
+    tables:
+      - name: tbl_asean_cities
+      - name: tbl_daily_data
+      - name: tbl_daily_units
+      - name: tbl_hourly_data
+      - name: tbl_hourly_units
